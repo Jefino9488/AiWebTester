@@ -1,0 +1,36 @@
+{
+    "chrome": {
+        "options": [
+            "--start-maximized",
+            "--disable-gpu",
+            "--no-sandbox",
+            "--disable-dev-shm-usage"
+        ],
+        "experimental_options": {
+            "excludeSwitches": ["enable-automation"],
+            "prefs": {
+                "credentials_enable_service": false,
+                "profile.password_manager_enabled": false
+            }
+        }
+    },
+    "firefox": {
+        "options": [
+            "--width=1920",
+            "--height=1080"
+        ],
+        "preferences": {
+            "dom.webnotifications.enabled": false,
+            "browser.download.folderList": 2,
+            "browser.download.manager.showWhenStarting": false
+        }
+    },
+    "edge": {
+        "options": [
+            "--start-maximized",
+            "--disable-gpu",
+            "--no-sandbox"
+        ]
+    }
+}
+
