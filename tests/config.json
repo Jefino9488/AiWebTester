@@ -1,6 +1,6 @@
 {
   "gemini": {
-    "api_key": "AIzaSyDddsNXdg4bP-BxWFvqgdXlP-BiY8A_tNs",
+    "api_key": "Your_Gemini_API_Key_Here",
     "model_name": "gemini-2.0-flash-001"
   },
   "webdriver": {
